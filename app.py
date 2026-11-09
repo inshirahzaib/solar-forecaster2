@@ -102,8 +102,8 @@ st.sidebar.markdown("---")
 # main page header
 # ----------------------------------------------------------------------------
 st.title("☀️ Solar Power Forecaster")
-st.caption("Does a machine-learning solar forecast actually beat the simplest guesses, "
-           "and does that advantage shrink when the weather gets jumpy? "
+st.caption("Does a machine-learning solar forecast actually beat the simplest guesses,"
+           "and does that advantage shrink when the weather gets jumpy? ")
 
 if raw is None:
     st.info("👈 Pick a data source in the sidebar. For NASA POWER, press the download button. "
